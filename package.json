@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "../node_modules/.bin/lerna run --scope @different-react-versions/* --parallel start",
+    "build": "lerna run --scope @different-react-versions/* build",
+    "serve": "../node_modules/.bin/lerna run --scope @different-react-versions/* --parallel serve",
+    "clean": "lerna run --scope @different-react-versions/* --parallel clean"
+  }
+}
